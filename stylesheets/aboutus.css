@@ -10,8 +10,25 @@
   flex-direction: column;
   /* justify-content: center; */
   gap: 32px;
-
   align-items: center;
+  animation: color infinite 10s;
+}
+@keyframes color {
+  0% {
+    color: black;
+  }
+  25% {
+    color: rgb(192, 73, 73);
+  }
+  50% {
+    color: rgb(178, 148, 0);
+  }
+  1000% {
+    color: rgb(0, 146, 146);
+  }
+  0% {
+    color: rgb(125, 94, 94);
+  }
 }
 
 .college {
