@@ -135,14 +135,14 @@
   border: solid 1px rgb(130, 130, 130);
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(-5deg);
   }
-}
+} */
 
 .items #image {
   border-radius: 8px;
